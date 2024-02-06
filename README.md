@@ -51,4 +51,5 @@ export default function ExampleClientComponent() {
 
 To run the project in your local environment, follow these steps:
 
-1.Clone the repository to your local machine. 2.`npm run dev` To run The Project.
+1.Clone the repository to your local machine. 
+2.`npm run dev` To run The Project.
