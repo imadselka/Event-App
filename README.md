@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Evently
 
-## Getting Started
+Evently is a platform for events management.
 
-First, run the development server:
+## Requirements :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Create a nextjs app if you have not use this CLI:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `npx create-next-app@latest my-app --typescript --tailwind --eslint`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  **Then download this packages you need them:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Shadcn**
 
-## Learn More
+- `npm install shadcn`
+- `npx shadcn-ui@latest add sheet`
+- `npx shadcn-ui@latest init`
+- `npx shadcn-ui@latest add button`
+- `npx shadcn-ui@latest add sheet`
 
-To learn more about Next.js, take a look at the following resources:
+- **UploadThing**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm install uploadthing/tw`
+- `npm install uploadthing/react`
+- `npm install uploadthing @uploadthing/react`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Clerk**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `npm ìnstall @clerk/nextjs`
