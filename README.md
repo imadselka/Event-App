@@ -17,6 +17,7 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest init`
 - `npx shadcn-ui@latest add button`
 - `npx shadcn-ui@latest add sheet`
+- `npx shadcn-ui@latest add separator`
 
 - **UploadThing**
 
