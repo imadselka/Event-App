@@ -29,6 +29,9 @@ Evently is a platform for events management.
 
 - `npm ìnstall @clerk/nextjs`
 
+- **MongoDB**
+- `npm install mongoose mongodb `
+
 ## 📚 What I Learned
 
 - `usePathname Hook`
@@ -45,11 +48,46 @@ export default function ExampleClientComponent() {
 
 ```
 
+- `Cached Data`
+
+- explanation :
+- the role of cached is when the users start a connection
+- we check if the conn is still available in this case we dont have to make a new connection
+- we just return him the current connection
+- if not we create a new connection to DB
+- if we dont do that the user can spam the multiple connections to DB
+- and the server will be fucked :D
+
+**CODE**
+
+```TS
+import mongoose from "mongoose";
+const MONGODB_URI = process.env.MONGODB_URI;
+
+let cached = (global as any).mongoose || { conn: null, promise: null };
+
+export const connectToDatabse = async () => {
+  if (cached.conn) return cached.conn;
+
+  if (!MONGODB_URI) throw new Error("MONGODB_URI is missing");
+
+  cached.promise =
+    cached.promise ||
+    mongoose.connect(MONGODB_URI, {
+      dbName: "evently",
+      bufferCommands: false,
+    });
+
+  cached.conn = await cached.promise;
+  return cached.conn;
+};
+```
+
 ## 📈 Overall Growth
 
 ## 🚦 Running the Project
 
 To run the project in your local environment, follow these steps:
 
- 1.Clone the repository to your local machine. <br/>
- 2.Run `npm run dev` To run The Project.
+1.Clone the repository to your local machine. <br/>
+2.Run `npm run dev` To run The Project.

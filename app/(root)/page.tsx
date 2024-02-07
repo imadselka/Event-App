@@ -36,10 +36,10 @@ export default function Home() {
           Trusted By <br /> Thousands of Events
         </h2>
         <div className="flex w-full flex-col gap-5 md:flex-row ">
-          Search CategoryFilter
+          Special Events
         </div>
         <div className="flex w-full flex-col gap-5 md:flex-row ">
-          Special Events
+          Search CategoryFilter
         </div>
       </section>
     </>
