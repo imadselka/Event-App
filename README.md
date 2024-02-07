@@ -10,8 +10,7 @@ Evently is a platform for events management.
 
   **Then download this packages you need them**
 
-- **Shadcn**
-- **DOCS** : <a href="https://ui.shadcn.com/docs" alt="shadcn/docs">Shadcn</a>
+- **Shadcn** **DOCS :** <a href="https://ui.shadcn.com/docs" alt="shadcn/docs">Shadcn</a>
 
 - `npm install shadcn`
 - `npx shadcn-ui@latest add sheet`
@@ -24,15 +23,13 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest add select`
 - `npx shadcn-ui@latest add alert-dialog`
 
-- **UploadThing**
-- **DOCS** : <a href="https://docs.uploadthing.com/" alt="UploadThing/docs">UploadThing</a>
+- **UploadThing** **DOCS :** : <a href="https://docs.uploadthing.com/" alt="UploadThing/docs">UploadThing</a>
 
 - `npm install uploadthing/tw`
 - `npm install uploadthing/react`
 - `npm install uploadthing @uploadthing/react`
 
-- **Clerk**
-- **DOCS** : <a href="https://clerk.com/docs/quickstarts/nextjs" alt="Clerk/docs">Clerk</a>
+- **Clerk** **DOCS :** <a href="https://clerk.com/docs/quickstarts/nextjs" alt="Clerk/docs">Clerk</a>
 
 - `npm ìnstall @clerk/nextjs`
 
