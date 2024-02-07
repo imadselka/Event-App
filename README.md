@@ -29,8 +29,14 @@ Evently is a platform for events management.
 
 - `npm ìnstall @clerk/nextjs`
 
+- **Svix**
+- `npm install svix`
+
 - **MongoDB**
 - `npm install mongoose mongodb `
+
+- **Query String**
+- `npm install query-string`
 
 ## 📚 What I Learned
 
