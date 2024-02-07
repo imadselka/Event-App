@@ -22,6 +22,7 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest add form`
 - `npx shadcn-ui@latest add input`
 - `npx shadcn-ui@latest add select`
+- `npx shadcn-ui@latest add alert-dialog`
 
 - **UploadThing**
 - **DOCS** : <a href="https://docs.uploadthing.com/" alt="UploadThing/docs">UploadThing</a>
