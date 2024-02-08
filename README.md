@@ -11,7 +11,6 @@ Evently is a platform for events management.
   **Then download this packages you need them**
 
 - **Shadcn** **DOCS :** <a href="https://ui.shadcn.com/docs" alt="shadcn/docs">Shadcn</a>
-
 - `npm install shadcn`
 - `npx shadcn-ui@latest add sheet`
 - `npx shadcn-ui@latest init`
@@ -23,26 +22,19 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest add select`
 - `npx shadcn-ui@latest add alert-dialog`
 - `npx shadcn-ui@latest add textarea`
-
+- `npx shadcn-ui@latest add checkbox`
 - **UploadThing** **DOCS :** : <a href="https://docs.uploadthing.com/getting-started/appdir" alt="UploadThing/docs">UploadThing</a>
-
 - `npm install uploadthing/tw`
 - `npm install uploadthing/react`
 - `npm install uploadthing @uploadthing/react`
-
 - **Clerk** **DOCS :** <a href="https://clerk.com/docs/quickstarts/nextjs" alt="Clerk/docs">Clerk</a>
-
 - `npm ìnstall @clerk/nextjs`
-
 - **Svix**
 - `npm install svix`
-
 - **MongoDB**
 - `npm install mongoose mongodb `
-
 - **Query String**
 - `npm install query-string`
-
 - **React DatePicker** **DOCS:** <a href="https://www.npmjs.com/package/react-datepicker" alt="react-datepicker"></a>
 - `npm install react-datepicker --save`
 - **If u are using TypeScript Install this too**
@@ -100,6 +92,7 @@ export const connectToDatabse = async () => {
 ```
 
 - `CRUD Operations`
+- `Shadcn components`
 
 ## 📈 Overall Growth
 
