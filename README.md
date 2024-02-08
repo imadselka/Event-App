@@ -45,6 +45,8 @@ Evently is a platform for events management.
 
 - **React DatePicker** **DOCS:** <a href="https://www.npmjs.com/package/react-datepicker" alt="react-datepicker"></a>
 - `npm install react-datepicker --save`
+- **If u are using TypeScript Install this too**
+- `npm i --save-dev @types/react-datepicker`
 
 ## 📚 What I Learned
 
