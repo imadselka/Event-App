@@ -27,7 +27,7 @@ export type CreateEventParams = {
     endDateTime: Date;
     categoryId: string;
     price: string;
-    isSpecial: boolean;
+    isSpecial?: boolean;
     isFree: boolean;
     url: string;
   };
