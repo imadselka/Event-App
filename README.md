@@ -22,6 +22,7 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest add input`
 - `npx shadcn-ui@latest add select`
 - `npx shadcn-ui@latest add alert-dialog`
+- `npx shadcn-ui@latest add textarea`
 
 - **UploadThing** **DOCS :** : <a href="https://docs.uploadthing.com/" alt="UploadThing/docs">UploadThing</a>
 
@@ -65,7 +66,7 @@ export default function ExampleClientComponent() {
 - we check if the conn is still available in this case we dont have to make a new connection
 - we just return him the current connection
 - if not we create a new connection to DB
-- if we dont do that the user can spam the multiple connections to DB
+- if we dont do that the user can spam multiple connections to DB
 - and the server will be fucked :D
 
 **CODE**
