@@ -24,7 +24,7 @@ Evently is a platform for events management.
 - `npx shadcn-ui@latest add alert-dialog`
 - `npx shadcn-ui@latest add textarea`
 
-- **UploadThing** **DOCS :** : <a href="https://docs.uploadthing.com/" alt="UploadThing/docs">UploadThing</a>
+- **UploadThing** **DOCS :** : <a href="https://docs.uploadthing.com/getting-started/appdir" alt="UploadThing/docs">UploadThing</a>
 
 - `npm install uploadthing/tw`
 - `npm install uploadthing/react`
@@ -42,6 +42,9 @@ Evently is a platform for events management.
 
 - **Query String**
 - `npm install query-string`
+
+- **React DatePicker** **DOCS:** <a href="https://www.npmjs.com/package/react-datepicker" alt="react-datepicker"></a>
+- `npm install react-datepicker --save`
 
 ## 📚 What I Learned
 
