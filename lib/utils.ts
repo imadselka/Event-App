@@ -1,13 +1,8 @@
 import { clsx, type ClassValue } from "clsx";
-
-// remove error by installing the package:
-// npm install query-string
-
-import qs from "query-string";
+import qs from "query-string"; // Add the import statement for the queryString package
 import { twMerge } from "tailwind-merge";
 
 import { RemoveUrlQueryParams, UrlQueryParams } from "@/types";
-
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -103,6 +98,6 @@ export function removeKeysFromQuery({
 }
 
 export const handleError = (error: unknown) => {
-  console.error(error);
+  console.log(error);
   throw new Error(typeof error === "string" ? error : JSON.stringify(error));
 };
